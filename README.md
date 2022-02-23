@@ -34,3 +34,14 @@ Once this is done, add the following code to send a Pushover notification. There
 Exception except;
 bool notify = Pushover.SendNotification("LJNNaBNdqGKaVQeT38V8Y58EjMqA4d", "YOUR_USER_KEY_HERE", "This is my first Pushover notification using Microsoft Visual Studio!", out except);
 ````
+
+# Test Harness
+
+The Visual Studio solution (imported/tested in VS 2022 Community) includes a test harness Windows Forms app. This allows you to fully test the Pushover.NET solution, including sending messages, including titles, URLs, changing sounds, priority, etc.
+
+I created a default application key, ah4qn2853qakpyh5r4p5yd6dw41knu, which is prepopulated. I just created this on "Twosday" Tuesday 2/22/22, as the old one I had featured on CodePlex is so heavily used it gets maxed out of its 10,000 free monthly messages. I ask that when you use this key, please don't be greedy. Try it out a couple times, then create your own applications. You can create many applications in your own Pushover account, EACH of which come with 10,000 free messages per month. So use mine just for a quick smoke test, then set up your own.
+
+If you get an error code 429, that means the 10,000 free monthly messages have been exceeded.
+
+## Test Screen Caps
+
