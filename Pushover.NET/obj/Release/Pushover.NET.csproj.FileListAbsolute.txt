@@ -1,0 +1,10 @@
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\bin\Release\Pushover.dll
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\bin\Release\Pushover.pdb
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\obj\Release\Pushover.dll
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\obj\Release\Pushover.pdb
+C:\Users\matts\OneDrive\Projects\Pushover.NET\Pushover.NET\obj\Release\Pushover.NET.csproj.AssemblyReference.cache
+C:\Users\matts\OneDrive\Projects\Pushover.NET\Pushover.NET\obj\Release\Pushover.dll
+C:\Users\matts\OneDrive\Projects\Pushover.NET\Pushover.NET\obj\Release\Pushover.pdb
+C:\Users\matts\OneDrive\Projects\Pushover.NET\Pushover.NET\bin\Release\Pushover.dll
+C:\Users\matts\OneDrive\Projects\Pushover.NET\Pushover.NET\bin\Release\Pushover.pdb
+C:\Users\matts\OneDrive\Projects\Pushover.NET\Pushover.NET\obj\Release\Pushover.NET.csproj.CoreCompileInputs.cache

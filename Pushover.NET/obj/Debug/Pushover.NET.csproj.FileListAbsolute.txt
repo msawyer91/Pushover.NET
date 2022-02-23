@@ -1,0 +1,4 @@
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\bin\Debug\Pushover.dll
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\bin\Debug\Pushover.pdb
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\obj\Debug\Pushover.dll
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\Pushover.NET\Pushover.NET\obj\Debug\Pushover.pdb
