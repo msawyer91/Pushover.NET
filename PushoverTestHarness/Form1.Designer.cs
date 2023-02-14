@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxAppKey = new System.Windows.Forms.TextBox();
+            this.textBoxMessage = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.textBoxUserKey = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxMessage = new System.Windows.Forms.TextBox();
+            this.textBoxAppKey = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBoxPriority = new System.Windows.Forms.ComboBox();
             this.comboBoxSound = new System.Windows.Forms.ComboBox();
@@ -70,22 +70,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Mandatory Items";
             // 
-            // label1
+            // textBoxMessage
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Application Key";
+            this.textBoxMessage.Location = new System.Drawing.Point(101, 63);
+            this.textBoxMessage.MaxLength = 512;
+            this.textBoxMessage.Name = "textBoxMessage";
+            this.textBoxMessage.Size = new System.Drawing.Size(470, 20);
+            this.textBoxMessage.TabIndex = 5;
             // 
-            // textBoxAppKey
+            // label3
             // 
-            this.textBoxAppKey.Location = new System.Drawing.Point(101, 29);
-            this.textBoxAppKey.Name = "textBoxAppKey";
-            this.textBoxAppKey.Size = new System.Drawing.Size(183, 20);
-            this.textBoxAppKey.TabIndex = 1;
-            this.textBoxAppKey.Text = "LJNNaBNdqGKaVQeT38V8Y58EjMqA4d";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Message Body";
             // 
             // textBoxUserKey
             // 
@@ -103,22 +103,22 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Your User Key";
             // 
-            // label3
+            // textBoxAppKey
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 66);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Message Body";
+            this.textBoxAppKey.Location = new System.Drawing.Point(101, 29);
+            this.textBoxAppKey.Name = "textBoxAppKey";
+            this.textBoxAppKey.Size = new System.Drawing.Size(183, 20);
+            this.textBoxAppKey.TabIndex = 1;
+            this.textBoxAppKey.Text = "ah4qn2853qakpyh5r4p5yd6dw41knu";
             // 
-            // textBoxMessage
+            // label1
             // 
-            this.textBoxMessage.Location = new System.Drawing.Point(101, 63);
-            this.textBoxMessage.MaxLength = 512;
-            this.textBoxMessage.Name = "textBoxMessage";
-            this.textBoxMessage.Size = new System.Drawing.Size(470, 20);
-            this.textBoxMessage.TabIndex = 5;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Application Key";
             // 
             // label4
             // 
@@ -134,9 +134,10 @@
             this.comboBoxPriority.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPriority.FormattingEnabled = true;
             this.comboBoxPriority.Items.AddRange(new object[] {
+            "Lowest",
+            "Low",
             "Normal",
             "High",
-            "Low",
             "Emergency"});
             this.comboBoxPriority.Location = new System.Drawing.Point(113, 136);
             this.comboBoxPriority.Name = "comboBoxPriority";
@@ -310,7 +311,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 270);
+            this.ClientSize = new System.Drawing.Size(609, 269);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBoxUrlTitle);

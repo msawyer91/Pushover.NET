@@ -28,9 +28,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Pushover Notification Helper")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Dojo North Software, LLC")]
+[assembly: AssemblyCompany("Heathens Haven Hashers, LLC")]
 [assembly: AssemblyProduct("Pushover")]
-[assembly: AssemblyCopyright("Copyright © Dojo North Software, LLC 2013")]
+[assembly: AssemblyCopyright("Copyright © Heathens Haven Hashers, LLC 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -52,5 +52,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.7.10")]
-[assembly: AssemblyFileVersion("1.0.7.10")]
+[assembly: AssemblyVersion("2.2.2.13")]
+[assembly: AssemblyFileVersion("2.2.2.13")]

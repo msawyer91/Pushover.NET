@@ -1,7 +1,7 @@
 ﻿/*
  * This software and source code is licensed under the BSD 2-Clause license. Please see http://opensource.org/licenses/BSD-2-Clause
  * 
- * Copyright (c) 2013 Dojo North Software, LLC
+ * Copyright (c) 2013-2023 Heathens Haven Hashers, LLC
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -554,10 +554,11 @@ namespace DojoNorthSoftware.Pushover
     /// </summary>
     public enum Priority
     {
+        Lowest = -2,
+        Low = -1,
         Normal = 0,
-        Low = 1,
-        High = 2,
-        Emergency = 3
+        High = 1,
+        Emergency = 2
     }
 #endregion
 }

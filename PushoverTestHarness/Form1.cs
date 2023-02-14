@@ -141,6 +141,10 @@ namespace PushoverTestHarness
                     {
                         return Priority.Low;
                     }
+                case "Lowest":
+                    {
+                        return Priority.Lowest;
+                    }
                 case "Normal":
                 default:
                     {
