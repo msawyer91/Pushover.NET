@@ -24,6 +24,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using DojoNorthSoftware.Pushover;
@@ -47,10 +49,12 @@ namespace PushoverTestHarness
         {
             if (ValidateFields())
             {
-                Exception except;
-                bool result = Pushover.SendNotification(textBoxAppKey.Text, textBoxUserKey.Text, textBoxTitle.Text, textBoxMessage.Text, ResolvePriorityFromString(),
-                    ResolveSoundFromString(), String.Empty, textBoxUrl.Text, textBoxUrlTitle.Text, (int)numericUpDownRetry.Value, (int)numericUpDownExpire.Value, out except);
-                if (result)
+                //Exception except;
+                //bool result = Pushover.SendNotification(textBoxAppKey.Text, textBoxUserKey.Text, textBoxTitle.Text, textBoxMessage.Text, ResolvePriorityFromString(),
+                //    ResolveSoundFromString(), String.Empty, textBoxUrl.Text, textBoxUrlTitle.Text, "C:\\Users\\matts\\OneDrive\\Pictures\\DavidMilesHogg_Trayvon.png", (int)numericUpDownRetry.Value, (int)numericUpDownExpire.Value, out except);
+                Task<Pushover.PushoverAsyncResult> result = Pushover.SendNotificationAsync(textBoxAppKey.Text, textBoxUserKey.Text, textBoxTitle.Text, textBoxMessage.Text, ResolvePriorityFromString(),
+                    ResolveSoundFromString(), String.Empty, textBoxUrl.Text, textBoxUrlTitle.Text, "C:\\Users\\matts\\OneDrive\\Pictures\\sampleimage.jpg", (int)numericUpDownRetry.Value, (int)numericUpDownExpire.Value);
+                /*if (result)
                 {
                     MessageBox.Show("Your message was sent to Pushover successfully. Please check your device(s) to confirm receipt.", "Success", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
@@ -67,7 +71,17 @@ namespace PushoverTestHarness
                         MessageBox.Show("Your message was not sent successfully. An error was detected with the message: " + except.Message, "Severe",
                             MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     }
-                }
+                }*/
+                int counter = 0;
+                //while(result.Status == TaskStatus.)
+                //while(!result.Result.IsComplete && counter < 20)
+                //{
+                //    System.Threading.Thread.Sleep(50);
+                //    counter++;
+                //}
+                MessageBox.Show("Check the debugger for output.", "Send Processed", MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                MessageBox.Show(result.Result.ToString());
             }
         }
 
